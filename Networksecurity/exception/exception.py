@@ -18,6 +18,6 @@ if __name__=="__main__":
         a=1/0
         print("This will be not be printed " , a)
 
-    except NetwrorkSecurityException as e :
+    except Exception as e :
         raise NetwrorkSecurityException(e,sys)
     
