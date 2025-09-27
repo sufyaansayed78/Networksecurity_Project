@@ -1,0 +1,13 @@
+2025-09-24 21:26:21,058 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-24 21:26:22,505 - root - INFO - Initiate the data ingestion
+2025-09-24 21:26:26,449 - root - INFO - Performed train test split on the dataframe
+2025-09-24 21:26:26,449 - root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-09-24 21:26:26,449 - root - INFO - Exporting train and test file path
+2025-09-24 21:26:26,513 - root - INFO - Data initiation completed
+2025-09-24 21:26:26,522 - root - INFO - Initiated Data Validation
+2025-09-24 21:26:26,576 - root - INFO - Required number of columns:2
+2025-09-24 21:26:26,597 - root - INFO - Dataframe has columns:31
+2025-09-24 21:26:26,597 - root - INFO - Required number of columns:2
+2025-09-24 21:26:26,597 - root - INFO - Dataframe has columns:31
+2025-09-24 21:26:26,731 - root - INFO - data validation completed
+2025-09-24 21:26:26,774 - root - INFO - Saving the object as a pickle file
