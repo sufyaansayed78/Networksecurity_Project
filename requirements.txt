@@ -9,4 +9,5 @@ scipy
 dill
 pickle
 pyaml
+mlflow
 #-e . 

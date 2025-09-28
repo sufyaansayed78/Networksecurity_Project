@@ -1,0 +1,20 @@
+2025-09-28 15:04:44,667 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-28 15:04:49,297 - root - INFO - Initiate the data ingestion
+2025-09-28 15:04:52,378 - root - INFO - Performed train test split on the dataframe
+2025-09-28 15:04:52,378 - root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-09-28 15:04:52,379 - root - INFO - Exporting train and test file path
+2025-09-28 15:04:52,456 - root - INFO - Data initiation completed
+2025-09-28 15:04:52,464 - root - INFO - Initiated Data Validation
+2025-09-28 15:04:52,537 - root - INFO - Required number of columns:2
+2025-09-28 15:04:52,549 - root - INFO - Dataframe has columns:31
+2025-09-28 15:04:52,549 - root - INFO - Required number of columns:2
+2025-09-28 15:04:52,549 - root - INFO - Dataframe has columns:31
+2025-09-28 15:04:52,709 - root - INFO - data validation completed
+2025-09-28 15:04:52,743 - root - INFO - Saving the object as a pickle file
+2025-09-28 15:04:52,745 - root - INFO - Object successfully saved as a pickle file 
+2025-09-28 15:04:52,746 - root - INFO - Data Transformation Completed
+2025-09-28 15:04:52,746 - root - INFO - Model Training started
+2025-09-28 15:11:47,187 - root - INFO - Saving the object as a pickle file
+2025-09-28 15:11:47,188 - root - INFO - Object successfully saved as a pickle file 
+2025-09-28 15:11:47,189 - root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\09_28_2025_15_04_45\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMatrixArtifact(f1_score=0.9909653842249517, precision_score=0.988456865127582, recall_score=0.9934866680236109), test_metric_artifact=ClassificationMatrixArtifact(f1_score=0.9756681292381332, precision_score=0.9683293745051464, recall_score=0.9831189710610932))
+2025-09-28 15:11:47,192 - root - INFO - Model Trainer artifact
