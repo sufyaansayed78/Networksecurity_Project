@@ -1,0 +1,24 @@
+2025-09-30 11:19:17,331 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-30 11:20:06,051 - httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+2025-09-30 11:20:06,584 - httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+2025-09-30 11:20:07,072 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-09-30 11:20:07,088 - dagshub - INFO - Accessing as sufyaansayed78
+2025-09-30 11:20:07,975 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sufyaansayed78/Networksecurity_Project "HTTP/1.1 200 OK"
+2025-09-30 11:20:08,502 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-09-30 11:20:08,507 - dagshub - INFO - Initialized MLflow to track repo "sufyaansayed78/Networksecurity_Project"
+2025-09-30 11:20:08,508 - dagshub - INFO - Repository sufyaansayed78/Networksecurity_Project initialized!
+2025-09-30 11:20:08,509 - root - INFO - Initiate the data ingestion
+2025-09-30 11:20:11,786 - root - INFO - Performed train test split on the dataframe
+2025-09-30 11:20:11,786 - root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-09-30 11:20:11,786 - root - INFO - Exporting train and test file path
+2025-09-30 11:20:11,871 - root - INFO - Data initiation completed
+2025-09-30 11:20:11,887 - root - INFO - Initiated Data Validation
+2025-09-30 11:20:11,968 - root - INFO - Required number of columns:2
+2025-09-30 11:20:11,968 - root - INFO - Dataframe has columns:31
+2025-09-30 11:20:11,968 - root - INFO - Required number of columns:2
+2025-09-30 11:20:11,968 - root - INFO - Dataframe has columns:31
+2025-09-30 11:20:12,233 - root - INFO - data validation completed
+2025-09-30 11:20:12,325 - root - INFO - Saving the object as a pickle file
+2025-09-30 11:20:12,327 - root - INFO - Object successfully saved as a pickle file 
+2025-09-30 11:20:12,330 - root - INFO - Data Transformation Completed
+2025-09-30 11:20:12,330 - root - INFO - Model Training started

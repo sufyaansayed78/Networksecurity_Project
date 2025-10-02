@@ -1,0 +1,22 @@
+2025-09-30 11:25:09,726 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-30 11:25:14,617 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-09-30 11:25:14,636 - dagshub - INFO - Accessing as sufyaansayed78
+2025-09-30 11:25:15,199 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sufyaansayed78/Networksecurity_Project "HTTP/1.1 200 OK"
+2025-09-30 11:25:15,650 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-09-30 11:25:15,652 - dagshub - INFO - Initialized MLflow to track repo "sufyaansayed78/Networksecurity_Project"
+2025-09-30 11:25:15,653 - dagshub - INFO - Repository sufyaansayed78/Networksecurity_Project initialized!
+2025-09-30 11:25:15,654 - root - INFO - Initiate the data ingestion
+2025-09-30 11:25:18,503 - root - INFO - Performed train test split on the dataframe
+2025-09-30 11:25:18,504 - root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-09-30 11:25:18,504 - root - INFO - Exporting train and test file path
+2025-09-30 11:25:18,565 - root - INFO - Data initiation completed
+2025-09-30 11:25:18,570 - root - INFO - Initiated Data Validation
+2025-09-30 11:25:18,633 - root - INFO - Required number of columns:2
+2025-09-30 11:25:18,633 - root - INFO - Dataframe has columns:31
+2025-09-30 11:25:18,633 - root - INFO - Required number of columns:2
+2025-09-30 11:25:18,633 - root - INFO - Dataframe has columns:31
+2025-09-30 11:25:18,788 - root - INFO - data validation completed
+2025-09-30 11:25:18,827 - root - INFO - Saving the object as a pickle file
+2025-09-30 11:25:18,830 - root - INFO - Object successfully saved as a pickle file 
+2025-09-30 11:25:18,831 - root - INFO - Data Transformation Completed
+2025-09-30 11:25:18,831 - root - INFO - Model Training started

@@ -1,0 +1,30 @@
+2025-09-30 12:13:38,137 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2025-09-30 12:13:43,070 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-09-30 12:13:43,077 - dagshub - INFO - Accessing as sufyaansayed78
+2025-09-30 12:13:43,656 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sufyaansayed78/Networksecurity_Project "HTTP/1.1 200 OK"
+2025-09-30 12:13:44,120 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-09-30 12:13:44,127 - dagshub - INFO - Initialized MLflow to track repo "sufyaansayed78/Networksecurity_Project"
+2025-09-30 12:13:44,130 - dagshub - INFO - Repository sufyaansayed78/Networksecurity_Project initialized!
+2025-09-30 12:13:44,130 - root - INFO - Initiate the data ingestion
+2025-09-30 12:13:47,125 - root - INFO - Performed train test split on the dataframe
+2025-09-30 12:13:47,125 - root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+2025-09-30 12:13:47,126 - root - INFO - Exporting train and test file path
+2025-09-30 12:13:47,196 - root - INFO - Data initiation completed
+2025-09-30 12:13:47,202 - root - INFO - Initiated Data Validation
+2025-09-30 12:13:47,267 - root - INFO - Required number of columns:2
+2025-09-30 12:13:47,267 - root - INFO - Dataframe has columns:31
+2025-09-30 12:13:47,267 - root - INFO - Required number of columns:2
+2025-09-30 12:13:47,267 - root - INFO - Dataframe has columns:31
+2025-09-30 12:13:47,418 - root - INFO - data validation completed
+2025-09-30 12:13:47,451 - root - INFO - Saving the object as a pickle file
+2025-09-30 12:13:47,454 - root - INFO - Object successfully saved as a pickle file 
+2025-09-30 12:13:47,454 - root - INFO - Saving the object as a pickle file
+2025-09-30 12:13:47,457 - root - INFO - Object successfully saved as a pickle file 
+2025-09-30 12:13:47,457 - root - INFO - Data Transformation Completed
+2025-09-30 12:13:47,458 - root - INFO - Model Training started
+2025-09-30 12:14:04,020 - root - INFO - Saving the object as a pickle file
+2025-09-30 12:14:04,021 - root - INFO - Object successfully saved as a pickle file 
+2025-09-30 12:14:04,021 - root - INFO - Saving the object as a pickle file
+2025-09-30 12:14:04,037 - root - INFO - Object successfully saved as a pickle file 
+2025-09-30 12:14:04,038 - root - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\09_30_2025_12_13_38\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMatrixArtifact(f1_score=0.9908869987849331, precision_score=0.98948432760364, recall_score=0.9922936524031637), test_metric_artifact=ClassificationMatrixArtifact(f1_score=0.9767631471667346, precision_score=0.9763651181744091, recall_score=0.9771615008156607))
+2025-09-30 12:14:04,039 - root - INFO - Model Trainer artifact

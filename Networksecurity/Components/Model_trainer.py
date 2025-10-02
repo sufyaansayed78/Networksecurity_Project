@@ -20,6 +20,8 @@ from sklearn.ensemble import(
 from Networksecurity.utils.main_utils.utils1 import evaluate_models
 from Networksecurity.utils.main_utils.utils1 import NetworkModel
 import mlflow
+import dagshub
+dagshub.init(repo_owner='sufyaansayed78', repo_name='Networksecurity_Project', mlflow=True)
 
 
 
@@ -41,10 +43,10 @@ class ModelTrainer:
             mlflow.log_metric("f1_score",f1_score)
             mlflow.log_metric("precision",precision_score)
             mlflow.log_metric("recall_score",recall_score)
-            mlflow.sklearn.log_model(best_model,"model")
+            #mlflow.sklearn.log_model(best_model,"model")
             
 
-
+    
 
         
     def train_model(self,x_train,y_train,x_test,y_test):
@@ -66,20 +68,20 @@ class ModelTrainer:
                 # 'criterion':['gini', 'entropy', 'log_loss'],
                 
                 # 'max_features':['sqrt','log2',None],
-                'n_estimators': [8,16,32,128,256]
+                'n_estimators': [8,16,32]
             },
             "Gradient Boosting":{
                 # 'loss':['log_loss', 'exponential'],
-                'learning_rate':[.1,.01,.05,.001],
-                'subsample':[0.6,0.7,0.75,0.85,0.9],
+                'learning_rate':[.1,.01],
+                'subsample':[0.6,0.7],
                 # 'criterion':['squared_error', 'friedman_mse'],
                 # 'max_features':['auto','sqrt','log2'],
-                'n_estimators': [8,16,32,64,128,256]
+                'n_estimators': [8,16,32]
             },
             "Logistics Regression":{},
             "AdaBoost":{
-                'learning_rate':[.1,.01,.001],
-                'n_estimators': [8,16,32,64,128,256]
+                'learning_rate':[.1,.01],
+                'n_estimators': [8,16,32]
             }
             
         }
@@ -102,7 +104,8 @@ class ModelTrainer:
 
         Network_Model = NetworkModel(preprocessor=preprocessor,model=best_model)
         save_object(self.model_trainer_config.trained_model_file_path,obj=NetworkModel)
-
+        save_object("final_models/model.pkl",best_model)
+        
         model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path=self.model_trainer_config.trained_model_file_path,train_metric_artifact=classification_train_metric,test_metric_artifact=classification_test_metric)
         logging.info(f"Model trainer artifact: {model_trainer_artifact}")
         return model_trainer_artifact

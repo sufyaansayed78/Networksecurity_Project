@@ -1,0 +1,6 @@
+2025-10-01 20:47:08,534 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-10-01 20:47:08,557 - dagshub - INFO - Accessing as sufyaansayed78
+2025-10-01 20:47:09,214 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/sufyaansayed78/Networksecurity_Project "HTTP/1.1 200 OK"
+2025-10-01 20:47:09,828 - httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+2025-10-01 20:47:09,836 - dagshub - INFO - Initialized MLflow to track repo "sufyaansayed78/Networksecurity_Project"
+2025-10-01 20:47:09,836 - dagshub - INFO - Repository sufyaansayed78/Networksecurity_Project initialized!
